@@ -3,13 +3,13 @@
 #include <windows.h>
 
 #define point	10
-#define TOP		1
-#define BOT		TOP+2*SIZE
+#define TOP	1
+#define BOT	TOP+2*SIZE
 #define LEFT	3
 #define RIGHT	LEFT+4*SIZE
 #define SIZE	20
-#define ai		(A.y-TOP-1)/2
-#define aj		(A.x-LEFT-2)/4
+#define ai	(A.y-TOP-1)/2
+#define aj	(A.x-LEFT-2)/4
 
 struct PLAYER{
 	int x, y, value, score;
@@ -55,8 +55,8 @@ void endGame(PLAYER A, PLAYER B){
 	if (A.score>B.score)	WIN=A; else WIN=B;	//Khong xay ra truong hop A==B
 	int x=5*SIZE, y=TOP+SIZE;
 	gotoXY(x,y);		textColor(WIN.value);	printf("WINNER");
-	gotoXY(x-6,y+2);	textColor(5);			printf("Press ENTER to REPLAY!");
-	gotoXY(x-5,y+4);	textColor(7);			printf("Press ESC to EXIT!");
+	gotoXY(x-6,y+2);	textColor(5);		printf("Press ENTER to REPLAY!");
+	gotoXY(x-5,y+4);	textColor(7);		printf("Press ESC to EXIT!");
 	char key;
 	while (1){
 		if (kbhit()){
@@ -172,7 +172,7 @@ void veBanCo(){
 	}
 	char S0[200], S1[200];
 	for (int j=0;j<4*SIZE-1;j++)
-		if (j%4==0)		S0[j]=179;		else S0[j]=' ';
+		if (j%4==0)		S0[j]=179;	else S0[j]=' ';
 	for (int j=0;j<4*SIZE-1;j++)
 		if ((j+1)%4==0)	S1[j]=197;		else S1[j]=196;
 	S1[4*SIZE-1]='\0';	S0[4*SIZE-1]='\0';
