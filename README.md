@@ -4,7 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/TienNHM/caro_console) 
 ![GitHub issues](https://img.shields.io/github/issues/TienNHM/caro_console?color=red) 
 ![GitHub top language](https://img.shields.io/github/languages/top/TienNHM/caro_console?color=cyan) 
-![GitHub repo size](https://img.shields.io/github/repo-size/TienNHM/caro_console 
+![GitHub repo size](https://img.shields.io/github/repo-size/TienNHM/caro_console)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TienNHM/caro_console) 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TienNHM/caro_console?color=g) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/TienNHM/caro_console?color=yellow) 
